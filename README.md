@@ -1,5 +1,7 @@
 ## accountService  
 
+[![Build Status](https://travis-ci.org/dsabia/accountService.svg?branch=master)](https://travis-ci.org/dsabia/accountService)
+
 _(techincal test)_
 
 #### Business requirements

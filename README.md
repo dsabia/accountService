@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dsabia/accountService.svg?branch=master)](https://travis-ci.org/dsabia/accountService)
 
-_(techincal test)_
+_(technical test)_
 
 #### Business requirements
 As a customer, I would like to see my accounts so that I know my financial status.  
@@ -19,3 +19,7 @@ The data will be retrieved from a database
 _Pre-conditions_   
 The user is already authenticated  
 We consider a single user with 4 accounts  
+
+#### Endpoint DEMO
+
+https://ingaccountservice.herokuapp.com/1/account

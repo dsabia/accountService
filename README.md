@@ -1,10 +1,19 @@
-# accountService
+## accountService  
 
-_a production-ready service to list all account given one user_
+_(techincal test)_
 
-constraints:
-- output in json
-- no view
-- no security
-- no user management, user already authenticated
+#### Business requirements
+As a customer, I would like to see my accounts so that I know my financial status.  
+The data consists of the following information:  
+- Account number
+- Account name
+- Amount
+- Currency
 
+#### Technical requirements  
+The accounts will be provided by a service that could be consumed by a front end  
+That service will return the data formatted as JSON  
+The data will be retrieved from a database  
+_Pre-conditions_   
+The user is already authenticated  
+We consider a single user with 4 accounts  

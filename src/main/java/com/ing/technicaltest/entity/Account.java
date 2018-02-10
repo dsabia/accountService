@@ -29,7 +29,7 @@ public class Account {
 
     public Account() {}
     
-	public Account( String name, BigDecimal amount, Currency currency, User user) {
+	public Account(String name, BigDecimal amount, Currency currency, User user) {
 		super();
 		this.name = name;
 		this.amount = amount;

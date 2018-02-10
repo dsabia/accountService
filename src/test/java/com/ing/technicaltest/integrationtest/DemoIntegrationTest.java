@@ -35,6 +35,7 @@ public class DemoIntegrationTest {
 		then().
 			statusCode(200).
 			contentType(ContentType.JSON).
+			and().
 			body("id", hasItems(1,2,3,4)).
 			and().
 			body("amount", hasSize(4)).
@@ -86,5 +87,4 @@ public class DemoIntegrationTest {
 		then().
 			statusCode(405);
 	}
-
 }
